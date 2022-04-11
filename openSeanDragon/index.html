@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>openSeanDragon Viewer</title>
+    <script
+      type="application/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/3.0.0/openseadragon.min.js"
+    ></script>
+    </head>
+    <body>
+
+        <h1>OpenSeaDragon viewer</h1>
+
+        <div id="test1" style="width: 800px; height: 600px;"></div>
+
+        <script type="text/javascript">
+            var viewer = OpenSeadragon({
+                id: "test1",
+                preserveViewport: true,
+                visibilityRatio:    1,
+                minZoomLevel:       1,
+                defaultZoomLevel:   1,
+                sequenceMode:       true,
+                tileSources:   [{                                                               
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://libimages1.princeton.edu/loris/pudl0001%2F4609321%2Fs42%2F00000001.jp2",
+                    "height": 7200,
+                    "width": 5233,
+                    "profile": [ "http://iiif.io/api/image/2/level2.json" ],
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [{
+                        "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
+                        "width": 1024
+                    }]                                              
+                }]
+            });
+        </script>
+
+<!--
+
+                id: "test1",
+                prefixUrl: "https://gallica.bnf.fr/view3if/ga/", //à remplacer par l'adresse du serveur http://127.0.0.1:5500/https://img.humanitas.digital:8182
+                tileSources: "/ark:/12148/btv1b53083503z" //vers une image avec deep zoom, genre utiliser VIPS
+            })
+
+        <script type="text/javascript">
+            var viewer = OpenSeadragon({
+                id: "openseadragon1",
+                prefixUrl: "/openseadragon/images/", //à remplacer par l'adresse du serveur http://127.0.0.1:5500/https://img.humanitas.digital:8182
+                tileSources: "/path/to/my/image.dzi" //vers une image avec deep zoom, genre utiliser VIPS
+            });
+        </script>       
+;-->
+    </body>
+
+</html>
+
+<!--docs: https://openseadragon.github.io/docs/
+
+    https://openseadragon.github.io/examples/tilesource-iiif/
+
+    DZI https://openseadragon.github.io/examples/creating-zooming-images/
+
+-->
