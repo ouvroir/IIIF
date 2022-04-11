@@ -1,0 +1,49 @@
+<!--
+    Ouvroir
+    Live code session: Lena et Emir 2022-04-11
+
+    code initial: https://codesandbox.io/s/uv-simple-example-1p175?file=/index.html:0-981
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Universal Viewer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/universalviewer@next/dist/uv.css"
+    />
+    <script
+      type="application/javascript"
+      src="https://cdn.jsdelivr.net/npm/universalviewer@next/dist/umd/UV.js"
+    ></script>
+    <style>
+      #uv {
+        width: 1800px;
+        height: 958px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Intégration universal viewer</h1>
+
+    <div><a href="../index.html">retour</a></div>
+    <p><a href="https://github.com/universalviewer/universalviewer" target="_blank">Universal viewer</a></p>
+    <div class="uv" id="uv"></div>
+
+    <script>
+      var urlAdaptor = new UV.URLAdaptor();
+
+      const data = urlAdaptor.getInitialData({
+        manifest: "https://wellcomelibrary.org/iiif/b18035723/manifest",
+        embedded: true // needed for codesandbox frame
+      });
+
+      uv = UV.init("uv", data);
+      urlAdaptor.bindTo(uv);
+    </script>
+  </body>
+</html>
