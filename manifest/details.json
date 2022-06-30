@@ -1,0 +1,58 @@
+{
+    "@id": "http://adc6523b-d0fe-44a9-8f01-0ed231662ebd",
+    "@type": "sc:Canvas",
+    "label": "Turin Forteress",
+    "height": 1913,
+    "width": 2154,
+    "images": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "http://ea402042-76ca-4e05-a305-8d89cbf7da10",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@id": "https://oncs.bib.umontreal.ca/cantaloupe/iiif/3/ouvroir%2Frighettino%2Fpng%2F1_Turin_PentagonalFortress.png/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "@id": "https://oncs.bib.umontreal.ca/cantaloupe/iiif/3/ouvroir%2Frighettino%2Fpng%2F1_Turin_PentagonalFortress.png",
+                    "profile": "level2"
+                },
+                "height": 1913,
+                "width": 2154
+            },
+            "on": "http://adc6523b-d0fe-44a9-8f01-0ed231662ebd"
+        }
+    ],
+    "related": ""
+},
+{
+    "@id": "http://a0544164-a558-49ae-aaea-1b6b09cc6ad3",
+    "@type": "sc:Canvas",
+    "label": "Real desired Ducal",
+    "height": "4567",
+    "width": "4664",
+    "images": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "http://17f3e07a-ef6a-4dfd-911e-3ffa3fe4195a",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@id": "https://oncs.bib.umontreal.ca/cantaloupe/iiif/3/ouvroir%2Frighettino%2Fpng%2F2_Real_Desired_Ducal.png/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "@id": "https://oncs.bib.umontreal.ca/cantaloupe/iiif/3/ouvroir%2Frighettino%2Fpng%2F2_Real_Desired_Ducal.png",
+                    "profile": "level2"
+                },
+                "height": 4567,
+                "width": 4664
+            },
+            "on": "http://a0544164-a558-49ae-aaea-1b6b09cc6ad3"
+        }
+    ],
+    "related": ""
+}
