@@ -34,6 +34,25 @@
 					"height": "7181",
 					"width": "9645",
 					"images": [
+                        {
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://ea402042-76ca-4e05-a305-8d89cbf7da10",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://oncs.bib.umontreal.ca/cantaloupe/iiif/3/ouvroir%2Frighettino%2Fpng%2F1_Turin_PentagonalFortress.png/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/3/context.json",
+									"@id": "https://oncs.bib.umontreal.ca/cantaloupe/iiif/3/ouvroir%2Frighettino%2Fpng%2F1_Turin_PentagonalFortress.png",
+									"profile": "level2"
+								},
+								"height": 1913,
+								"width": 2154
+							},
+							"on": "http://8ec9bbe2-3523-49d7-abe2-3f196b62c4af#xywh=3420,2494,2154,1913"
+						},
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
 							"@id": "http://fae7129c-0a38-4fec-8d11-4b404f423960",
