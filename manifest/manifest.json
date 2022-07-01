@@ -33,7 +33,7 @@
 					"label": "View of Turin",
 					"height": "7181",
 					"width": "9645",
-					"images": [
+					"images": [	
                         {
 							"@context": "http://iiif.io/api/presentation/2/context.json",
 							"@id": "http://ea402042-76ca-4e05-a305-8d89cbf7da10",
@@ -92,7 +92,13 @@
 							"on": "http://8ec9bbe2-3523-49d7-abe2-3f196b62c4af"
 						}
 					],
-					"related": ""
+					"related": [
+						{
+							"@id": "http://lenamk.site/annonatate/annotations/8ec9bbe2-3523-49d7-abe2-3f196b62c4af-list.json",
+							"@type": "sc:AnnotationList",
+							"label": "My fantastic annotations"
+						}
+					]
 				}
 			]
 		}
