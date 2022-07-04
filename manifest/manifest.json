@@ -40,7 +40,7 @@
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
-								"@id": "https://oncs.bib.umontreal.ca/cantaloupe/iiif/3/ouvroir%2Frighettino%2Fpng%2F1_Turin_PentagonalFortress.png/full/full/0/default.png",
+								"@id": "https://oncs.bib.umontreal.ca/cantaloupe/iiif/3/ouvroir%2Frighettino%2Fpng%2F1_Turin_PentagonalFortress.png/full/max/0/default.png",
 								"@type": "dctypes:Image",
 								"format": "image/png",
 								"service": {
@@ -59,7 +59,7 @@
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
-								"@id": "https://oncs.bib.umontreal.ca/cantaloupe/iiif/3/ouvroir%2Frighettino%2Fpng%2F2_Real_Desired_Ducal.png/full/full/0/default.png",
+								"@id": "https://oncs.bib.umontreal.ca/cantaloupe/iiif/3/ouvroir%2Frighettino%2Fpng%2F2_Real_Desired_Ducal.png/full/max/0/default.png",
 								"@type": "dctypes:Image",
 								"format": "image/png",
 								"service": {
