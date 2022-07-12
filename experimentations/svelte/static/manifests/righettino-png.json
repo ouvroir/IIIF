@@ -1,0 +1,204 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://oncs.bib.umontreal.ca/ouvroir/righettino/png",
+    "type": "Collection",
+    "label": {
+        "fr": [
+            "Manifest généré automatiquement pour /ouvroir/righettino/png"
+        ]
+    },
+    "behavior": [
+        "together"
+    ],
+    "items": [
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/0_View%20of%20Turin.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/0_View of Turin.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/3.1_LLC_Carolus_Venice.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/3.1_LLC_Carolus_Venice.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/3.2_ULC_Carolus_Rome.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/3.2_ULC_Carolus_Rome.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/3.3_URC_Carolus_France.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/3.3_URC_Carolus_France.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/3.4_LRC_Carolus_Lateran.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/3.4_LRC_Carolus_Lateran.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/4_Petrarchan%20quote.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/4_Petrarchan quote.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/5.1_LLC_Filiberto_Throne.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/5.1_LLC_Filiberto_Throne.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/5.2_ULC_Filiberto_Knight.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/5.2_ULC_Filiberto_Knight.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/5.3_URC_Filiberto_Christianus.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/5.3_URC_Filiberto_Christianus.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/5.4_LRC_Filiberto_Charitable.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/5.4_LRC_Filiberto_Charitable.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/6.1_LLC_Venice.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/6.1_LLC_Venice.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/6.2_ULC_Rome.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/6.2_ULC_Rome.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/6.3_France.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/6.3_France.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/6.4_Lateran.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/6.4_Lateran.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/7.1_UCT_Faith.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/7.1_UCT_Faith.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/7.2_UCT_Hope.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/7.2_UCT_Hope.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/7.3_UCT_Charity.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/7.3_UCT_Charity.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/8.1_LSM_Allegory%20of%20Peace.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/8.1_LSM_Allegory of Peace.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/8.2_RSM_Allegory%20of%20War.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/8.2_RSM_Allegory of War.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/9.1_UP_Divine%20Theology.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/9.1_UP_Divine Theology.png"
+                ]
+            }
+        },
+        {
+            "id": "https://oncs.bib.umontreal.ca/generateur/ouvroir/righettino/png/9.2_UP_Metaphysic.png",
+            "type": "Manifest",
+            "label": {
+                "fr": [
+                    "Manifest généré automatiquement pour /ouvroir/righettino/png/9.2_UP_Metaphysic.png"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://ouvroir.umontreal.ca/righettino/manifest01",
+    "type": "Manifest",
+    "label": {
+      "en": [
+        "Ouvroir test manifest"
+      ], 
+      "fr": [
+        "Test de manifeste pour l’Ouvroir"
+      ]
+    },
+    "items": [
+      {
+        "id": "",
+        "type": "Canvas",
+        "height": ,
+        "width": ,
+        "items": [
+          {
+            "id": "",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "",
+                  "type": "Image",
+                  "format": "image/png",
+                  "height": 1800,
+                  "width": 1200
+                },
+                "target": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
