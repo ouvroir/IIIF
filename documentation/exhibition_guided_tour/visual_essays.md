@@ -29,8 +29,8 @@
   - We are only able to see different images or some interactions while we scroll the page (it is different from the stuff which we wanted to do by considering the video which emmanuel showed of what we wanted to build)
 
 - Useful Links :
-  - Website : [link](https://dev.visual-essays.app/)
-  - Documentation : [link](https://docs.visual-essays.app/authoring-intro/)
+  - [Website](https://dev.visual-essays.app/)
+  - [Documentation](https://docs.visual-essays.app/authoring-intro/)
   - Github Repo : No Repo
 
 #### Compliance with IIIF : Yes
@@ -41,9 +41,13 @@
 
 #### Technical Description :
 
-Basic markdown coding (i think its same as juncture, and i think we can code and customise in juncture)
+- Basic markdown coding (i think its same as juncture, and i think we can code and customize in juncture)
+- Technologies used behind the Visual Essay Tool (according to visual essays [docs](https://docs.visual-essays.app/authoring-intro/))
+
+  - [Linked Open Data for Smart People who Just Haven't Learned about it Yet](https://www.youtube.com/watch?v=VZBpFiLbi-Y) by [Miriam Posner](https://miriamposner.com/)
+  - [IIIF]() by [Sheila Rabun](https://www.youtube.com/watch?v=8LiNbf4ELZM)
 
 #### Sample Demo :
 
-- [Link](https://visual-essays.app/chaitanyatekane/visualessaytool/chaitanyatekane/visualessaytool/new-page/) - created by me
-- [Link](https://juncture-digital.org/JSTOR-Labs/juncture/sample-visual-essay/) - found sample demo (i think its made using juncture but its same as visual essays)
+- [Created By Me](https://visual-essays.app/chaitanyatekane/visualessaytool/chaitanyatekane/visualessaytool/new-page/)
+- [Found sample demo - i think its made using juncture but its same as visual essays](https://juncture-digital.org/JSTOR-Labs/juncture/sample-visual-essay/)
