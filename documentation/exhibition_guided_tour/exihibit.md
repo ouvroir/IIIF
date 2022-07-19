@@ -34,19 +34,32 @@
   - If we add multiple images, like the main image and while we zoom in, if we add the zoom-in part of the image separately then the transition will not be smooth.
 
 - Useful Links :
-  - Website : [link](https://www.exhibit.so/)
-  - Contact Page : [link](https://www.exhibit.so/contact)
-  - Documentation : [link](https://www.exhibit.so/docs)
+  - [Website](https://www.exhibit.so/)
+  - [Contact Page](https://www.exhibit.so/contact)
+  - [Documentation](https://www.exhibit.so/docs)
   - Github Repo : No Repo
 
 #### Compliance with IIIF : Yes
 
 - What does it accepts as input :
+
   - IIIF Manifest URL
+
+- Image API :
+
+  - Compatible version : v2
+  - Image format : jpeg
+
+- Presentation API :
+
+  - Compatible version : v2
+  - Support of Annotation : we need to give annotation using exihibit editor manually, not require to put it into manifest as it is just a tool
+
+- [Sample Manifest](https://www.loc.gov/item/41038111/manifest.json)
 
 #### Technical Description :
 
-Can’t code as it not a library
+Can’t code as it not a library but it is made up of [universal viewer](https://universalviewer.io/)
 
 #### Sample Demo Created by Me :
 
