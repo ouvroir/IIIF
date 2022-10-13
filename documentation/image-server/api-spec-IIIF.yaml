@@ -1,0 +1,164 @@
+openapi: 3.0.3
+info:
+  title: API REST BibIIIF
+  description: API for Bib-IIIF
+  version: '1.0'
+servers:
+  - url: https://bib.umontreal.ca/IIIF/api
+paths:
+  /image:
+    post:
+      tags:
+        - image
+      summary: Dépot d'une image simple ou multiple
+      description: Dépot d'une image simple. Les métadonnées descriptives de l'image sont à inscrire dans l'entête. Il est possible de renseigner la collection. Il est possible d'envoyer plusieurs images à la fois. Cela nécessite d'envoyer un fichier binaire avec le MIME-Type multipart/form-data.
+      parameters: 
+        - in: header
+          name: metadata
+          description: Métadonnées descriptives de la ressource.
+          required: false
+          schema:
+            $ref: '#/components/schemas/Metadata'
+        - in: header
+          name: collectionURI
+          description: URI d'une collection existante. Si renseignée, l'image est ajoutée aux items de la collection (mise à jour des propriétés strucurelles du manifeste de la collection).
+          required: false
+          schema:
+            type: string
+      requestBody:
+        description: Dépose une ou plusieurs images.
+        content:
+          image/*:
+            schema: 
+               type: string
+               format: binary
+          multipart/form-data:
+            schema:
+              type: array
+              items:
+                type: string
+                format: binary
+        required: true
+      responses:
+        '200':
+          description: Succès du dépôt
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Manifest'
+
+  /create-collection:
+    get:
+      tags: [collection]
+      summary: Créer une nouvelle collection vide
+      description: Créer une nouvelle collection vide. 
+      parameters:
+        - in: query
+          name: title
+          schema:
+            type: string
+            description: Nom de la collection
+            example: Collection Atkins
+      responses:
+        '200':
+          description: La collection est correctement créée. Le manifeste de la collection est retournée au client
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Manifest'
+  
+  /update-manifest:
+    put:
+      tags: [manifest]
+      summary: Effectue une mise à jour d'un manifeste 
+      description: Effectue une mise à jour du manifeste d'une collection ou d'une image simple. Ce endpoint permet de mettre à jour les propriétés structurelles du manifeste. Les propriétes strucurelles (items, structures et annotations) sont a renseigner dans le corps de la requête. Une propriété non renseignée n'est pas mise à jour.
+      parameters:
+        - in: headers
+          name: structuralProps
+          description: contient les propriétés structurelles IIIF (items, structures et annotations)
+      requestBody:
+        content:
+          schema: 
+            $ref: '#/components/schemas/StructuralProps'
+        required: true
+      responses:
+        '200':
+          description: La mis à jour est correctement. Le manifeste de la collection est renvoyé au client.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Manifest'
+
+  /manifest/{identifier}:
+    get: 
+      tags: [manifest]
+      description: Retourne le manifeste IIIF d'une ressource grâce à partir de son URI.
+      summary: Récupération du manifeste d'une collection.
+      parameters:
+        - in: query
+          name: identifier
+          description: URI de la collection
+          required: true
+      requestBody:
+        required: false
+      responses:
+        '200':
+          description: Succès. Le manifeste est retourné au client
+          content:
+            type: object
+            schema:
+              $ref: '#/components/schemas/Manifest'
+
+components:
+  schemas:
+    Manifest:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 1
+        metadata:
+          type: object
+
+    Metadata:
+      type: array
+      items: 
+        type: object
+        properties:
+          label:
+            type: object
+            properties:
+              en|fr|it|de|es: 
+                type: array
+                items:
+                  type: string
+                  example: 'creator'
+          value:
+            type: object
+            properties: 
+              en|fr|it|de|es: 
+                type: array
+                items:
+                  type: string
+                  example: 'Ada Lovelace'
+
+    StructuralProps:
+      type: object
+      properties:
+        items:
+          type: array
+          items: 
+            type: object
+            properties:
+
+        structures:
+          type: array
+          items: 
+            type: object
+            properties:
+        annotations:
+          type: array
+          items: 
+            type: object
+            properties:
