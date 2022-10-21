@@ -1,6 +1,6 @@
 openapi: 3.0.3
 info:
-  title: API REST BibIIIF
+  title: API REST BibIIIF lol
   description: API for Bib-IIIF
   version: '1.0'
 servers:
