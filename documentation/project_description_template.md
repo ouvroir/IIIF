@@ -21,6 +21,7 @@ lang: #fr ou en
 - [Project organization](#project-organization)
   - [State of the art](#state-of-the-art)
   - [Roadmap](#roadmap)
+    - [Participants' assignements](#participants-assignements)
     - [Critical steps during development](#critical-steps-during-development)
     - [Future developements](#future-developements)
 - [Technical description](#technical-description)
@@ -51,6 +52,9 @@ Put any links to internal/external ressources you think are useful.
 
 ### Roadmap
 Brief description of the major steps and timeline of development.
+
+#### Participants' assignements
+Description of time spent on different tasks. Who did what and for how long? Give an idea of the expertise needed to achieve a certain result.
 
 #### Critical steps during development
 If issues have been met during development, describe the critical steps and solutions used to overcome difficult problems.
