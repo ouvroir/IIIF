@@ -69,7 +69,8 @@ npm run dev
 ```
 ### Remarks
 
-* No web frameworks (Svelte was first choice) have been used to facilitate the user experience/interaction : the tools manipulate the DOM which might conflict a component's life cycle. That problem is espcially true with OpenSeadragon due to the way in which it is exported (AMD or CommonJS). 
+* No web frameworks (Svelte is what we used in the first place) have been used in order to facilitate the implementation of interactions. This is due to the fact that modern web frameworks use what can be refered to the _component paradigm_ : different HTML elements (visible or not on a web page) are contained inside (mostly) autonomous *components* that have their own state (data attributes), functions, as well as a specific life cylcle (initialized, mounted, destroyed). This lifecycle is important to consider because it dictates whether or not the component and its HTML source code are placed in the DOM or not : on intialization a component can execute some functions before it is visible in the DOM - at initialization, a component does not have access to the DOM which means that one cannot use a simple function such as _document.querySelector(...)_. As soon as it placed in the DOM by the client server, we say that the component is _mounted_. Usually, the component's dependencies (ie. external librairies) are loaded before the component is mounted. This becomes a problem when the librairies being loaded need to access the DOM in order to initialize properly (ie. OpenSeedragon). In order to overcome this problem, it is essential to load the dependecy only when the component can access the DOM (when it is mounted). This workaround is not a good practice in itself as it forces to interfer with the import mecanisms employed by the framewrok.
+
 
 ## Project organization
 
