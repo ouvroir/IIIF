@@ -124,7 +124,7 @@ None of the tools described above have enough customization possiblities in term
 
 *Fall 2022*
 - Presentation of the prototype during Ouvroir's open house (Kenan Oudin)
-- Midi-Causerie with Denis Ribouillaut
+- Midi-Causerie with Denis Ribouillaut. See [Lena's notes](https://github.com/ouvroir/dahnotes/blob/master/ouvroir_Righettino.md) for more infos.
 
 #### Critical steps during development
 
